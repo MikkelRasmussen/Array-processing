@@ -21,4 +21,14 @@ class Object {
     ellipse(location.x, location.y, radius, radius);
     
   }
+  
+  boolean checkIfInside(){
+    if(mouseX > location.x && mouseX < location.x + radius && mouseY > location.y && mouseY < location.y + radius){
+      return true;
+    }else {
+      return false;
+    }
+  }
+  
+  
 }

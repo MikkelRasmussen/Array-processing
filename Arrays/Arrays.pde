@@ -7,7 +7,7 @@ void setup() {
   
   // Array[]
   for (int i = 0; i < ObjectArray.length; i++) {
-    ObjectArray[i] = new Object(20+40*i, 40+height/i, 25);
+    ObjectArray[i] = new Object(200, 70*(i+1), 25);
   }
   
   
@@ -23,5 +23,10 @@ void draw(){
 
 
 void mouseClicked(){
+  
+  //Array
+  for (int i = 0; i < ObjectArray.length; i++) {
+    
+  }
   
 }

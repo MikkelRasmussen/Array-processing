@@ -17,6 +17,7 @@ class Object {
 
     fill(50);
     ellipse(location.x, location.y, radius, radius);
+    
   }
   
   boolean checkIfInside() {
